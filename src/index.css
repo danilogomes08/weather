@@ -12,12 +12,114 @@
   background-color: #e2e2e2;
 }
 
+@media (max-width:1210px) {
+  .Location {
+    margin-left: 20px;
+  }
+  .Info {
+    justify-content: space-around !important;
+  }
+  .Location + p {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 500px) { 
+  input{
+    max-width: 250px;
+  }  
+  .Container > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .MoreInfo div p:first-child {
+    font-size: 3rem !important;
+  }
+  .MoreInfo {
+    max-width: 300px !important;
+    padding: 20px 40px !important;
+  }
+  .Main {
+    height: 50vh !important;
+  }
+}
+
+.Day {
+  background-image: url(./img/sun2.png) !important
+}
+
+.Night {
+  background-image: url(./img/night.png) !important
+}
+
+.BrokenClouds {
+  background-image: url(./img/broken\ clouds.png) !important
+}
+
+.BrokenCloudsN {
+  background-image: url(./img/broken\ clouds-n.png) !important
+}
+
+.ScatteredClouds {
+  background-image: url(./img/scattered\ clouds.png) !important
+}
+
+.ScatteredCloudsN {
+  background-image: url(./img/scattered\ clouds-n.png) !important
+}
+
 .Rain {
-  background-image: url(./img/rain.png) !important;
+  background-image: url(./img/rain.png) !important
+}
+
+.RainN {
+  background-image: url(./img/rain-n.png) !important
+}
+
+.ClearSky {
+  background-image: url(./img/clear\ sky.png) !important
+}
+
+.ClearSkyN {
+  background-image: url(./img/clear\ sky-n.png) !important
+}
+
+.FewClouds {
+  background-image: url(./img/few\ clouds.png) !important
+}
+
+.FewCloudsN {
+  background-image: url(./img/few\ clouds-n.png) !important
+}
+
+.Thunderstorm {
+  background-image: url(./img/thunderstorm.png) !important
+}
+
+.ThunderstormN {
+  background-image: url(./img/thunderstorm.png) !important
+}
+
+.Snow {
+  background-image: url(./img/snow.png) !important
+}
+
+.SnowN {
+  background-image: url(./img/snow-n.png) !important
+}
+
+.Mist {
+  background-image: url(./img/mist.png) !important
+}
+
+.MistN {
+  background-image: url(./img/mist-n.png) !important
 }
 
 header {
-  background-image: url(./img/sun2.png);
+  /*background-image: url(./img/sun2.png);*/
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
