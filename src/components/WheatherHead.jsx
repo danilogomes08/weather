@@ -6,7 +6,7 @@ const WheatherHeader = props => {
     return (
         <header className={props.weatherBackground}>
         <h1>
-          Find Weather Forecast TESTE
+          Find Weather Forecast
         </h1>
 
         <WeatherForms 
