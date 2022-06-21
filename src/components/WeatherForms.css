@@ -1,0 +1,32 @@
+.BtnMega{
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #e2e2e2;
+  }
+  
+  
+  @media (max-width: 500px) { 
+    input{
+      max-width: 250px;
+    }  
+  }
+  
+input {
+    border: none;
+    width: 350px;
+    padding: 15px 0;
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    outline: none;
+    font-size: 1.5rem;
+    text-indent: 15px
+  }
+  
+  button {
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    padding: 15px;
+    font-size: 1.5rem;
+  }

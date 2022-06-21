@@ -1,0 +1,42 @@
+@media (max-width: 500px) {
+    .MoreInfo div p:first-child {
+        font-size: 3rem !important;
+    }
+
+    .MoreInfo {
+        max-width: 300px !important;
+        padding: 20px 40px !important;
+    }
+}
+
+.MoreInfo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px 80px;
+    border-radius: 10px;
+    font-weight: 500;
+    flex-wrap: wrap;
+    animation: fadeIn 5s;
+}
+
+.MoreInfo div p:first-child {
+    font-size: 4rem;
+}
+
+.MoreInfo div p:last-child {
+    font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
