@@ -11,6 +11,9 @@
     .Main {
       height: 50vh !important;
     }
+    .Info {
+      justify-content: space-around !important;
+    }
   }
 
 .Main {

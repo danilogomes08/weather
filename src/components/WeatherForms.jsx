@@ -9,7 +9,7 @@ const WeatherForms = props => {
           className="weatherInput"
           onKeyUp={props.keyHandler}
           onChange={props.handleChange}
-          value={props.cityName}
+          value={props.value}
         />
 
         <button onClick={props.searchCity}>

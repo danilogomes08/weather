@@ -12,7 +12,7 @@ const WheatherHeader = props => {
         <WeatherForms 
           keyHandler={props.keyHandler}
           handleChange={props.handleChange}
-          value={props.cityName}
+          value={props.value}
           searchCity={props.searchCity}
         />
 

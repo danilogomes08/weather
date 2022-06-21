@@ -24,12 +24,15 @@ function App() {
           feels: resp.data.main.feels_like.toFixed()
         })
       })
-    setCityName('')
+      setCityName('')
   }
+
+
 
   const keyHandler = (e) => {
     if (e.key === 'Enter') {
       searchCity()
+      setCityName('')
     }
   }
 
@@ -64,8 +67,8 @@ function App() {
         weatherBackground={weatherBackground()}
         keyHandler={keyHandler}
         handleChange={(e) => { setCityName(e.target.value) }}
-        value={weather.name}
         searchCity={searchCity}
+        value={cityName}
       />
 
       <WeatherInfos
