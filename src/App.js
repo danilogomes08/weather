@@ -39,7 +39,8 @@ function App() {
   const weatherBackground = () => {
     const now = new Date()
     if (weather.icon == null && (now.getHours() >= 5 && now.getHours() < 18)) return "Day"
-    if (weather.icon == null && (now.getHours() >= 18 && now.getHours() < 5)) return "Night"
+    if (weather.icon == null && (now.getHours() >= 18)) return "Night"
+    if (weather.icon == null && (now.getHours() >= 0 && now.getHours() < 5)) return "Night"
     if (weather.icon === "01d") return "ClearSky"
     if (weather.icon === "01n") return "ClearSkyN"
     if (weather.icon === "02d") return "FewClouds"
