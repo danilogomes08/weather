@@ -3,6 +3,7 @@ import { Search } from 'react-feather';
 import './WeatherForms.css'
 
 const WeatherForms = props => {
+  
     return (
         <div>
         <input type="text"

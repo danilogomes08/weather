@@ -1,8 +1,8 @@
 import React from 'react';
 import './WeatherInfos.css';
-import WeatherDate from './WeatherDate'
+import WeatherDate from '../Date/WeatherDate'
 import { MapPin } from 'react-feather';
-import WeatherMoreInfos from './WeatherMoreInfos'
+import WeatherMoreInfos from './MoreInfos/WeatherMoreInfos'
 
 const WeatherInfos = props => {
     return (

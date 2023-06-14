@@ -2,8 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import Axios from 'axios';
 
-import WeatherInfos from './components/WeatherInfos'
-import WeatherHeader from './components/WheatherHead'
+import WeatherInfos from './components/Infos/WeatherInfos'
+import WeatherHeader from './components/Head/WheatherHead'
 
 function App() {
 
@@ -26,7 +26,6 @@ function App() {
       })
       setCityName('')
   }
-
 
 
   const keyHandler = (e) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import WeatherForms from './WeatherForms'
+import WeatherForms from '../Forms/WeatherForms';
 import './WheatherHead.css'
 
 const WheatherHeader = props => {

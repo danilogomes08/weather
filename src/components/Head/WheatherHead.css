@@ -12,75 +12,75 @@
   }
   
   .Day {
-    background-image: url(../img/sun2.png) !important
+    background-image: url(../../img/sun2.png) !important
   }
   
   .Night {
-    background-image: url(../img/night.png) !important
+    background-image: url(../../img/night.png) !important
   }
   
   .BrokenClouds {
-    background-image: url(../img/broken\ clouds.png) !important
+    background-image: url(../../img/broken\ clouds.png) !important
   }
   
   .BrokenCloudsN {
-    background-image: url(../img/broken\ clouds-n.png) !important
+    background-image: url(../../img/broken\ clouds-n.png) !important
   }
   
   .ScatteredClouds {
-    background-image: url(../img/scattered\ clouds.png) !important
+    background-image: url(../../img/scattered\ clouds.png) !important
   }
   
   .ScatteredCloudsN {
-    background-image: url(../img/scattered\ clouds-n.png) !important
+    background-image: url(../../img/scattered\ clouds-n.png) !important
   }
   
   .Rain {
-    background-image: url(../img/rain.png) !important
+    background-image: url(../../img/rain.png) !important
   }
   
   .RainN {
-    background-image: url(../img/rain-n.png) !important
+    background-image: url(../../img/rain-n.png) !important
   }
   
   .ClearSky {
-    background-image: url(../img/clear\ sky.png) !important
+    background-image: url(../../img/clear\ sky.png) !important
   }
   
   .ClearSkyN {
-    background-image: url(../img/clear\ sky-n.png) !important
+    background-image: url(../../img/clear\ sky-n.png) !important
   }
   
   .FewClouds {
-    background-image: url(../img/few\ clouds.png) !important
+    background-image: url(../../img/few\ clouds.png) !important
   }
   
   .FewCloudsN {
-    background-image: url(../img/few\ clouds-n.png) !important
+    background-image: url(../../img/few\ clouds-n.png) !important
   }
   
   .Thunderstorm {
-    background-image: url(../img/thunderstorm.png) !important
+    background-image: url(../../img/thunderstorm.png) !important
   }
   
   .ThunderstormN {
-    background-image: url(../img/thunderstorm.png) !important
+    background-image: url(../../img/thunderstorm.png) !important
   }
   
   .Snow {
-    background-image: url(../img/snow.png) !important
+    background-image: url(../../img/snow.png) !important
   }
   
   .SnowN {
-    background-image: url(../img/snow-n.png) !important
+    background-image: url(../../img/snow-n.png) !important
   }
   
   .Mist {
-    background-image: url(../img/mist.png) !important
+    background-image: url(../../img/mist.png) !important
   }
   
   .MistN {
-    background-image: url(../img/mist-n.png) !important
+    background-image: url(../../img/mist-n.png) !important
   }
   
   header {
