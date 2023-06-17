@@ -1,6 +1,6 @@
 import React from 'react';
 import { Search } from 'react-feather';
-import './WeatherForms.css'
+import './WeatherForms.scss'
 
 const WeatherForms = props => {
   

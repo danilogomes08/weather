@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeatherInfos.css';
+import './WeatherInfos.scss';
 import WeatherDate from '../Date/WeatherDate'
 import { MapPin } from 'react-feather';
 import WeatherMoreInfos from './MoreInfos/WeatherMoreInfos'
@@ -28,7 +28,7 @@ const WeatherInfos = props => {
             {props.name ?
               <>
                 <p>{props.temp}º</p>
-                <img src={`http://openweathermap.org/img/wn/${props.icon}@2x.png`} />
+                <img src={`http://openweathermap.org/img/wn/${props.icon}@2x.png`} alt="icon open weather"/>
               </>
               : null}
 

@@ -1,6 +1,6 @@
 import './WeatherDate.css'
 
-const WeatherDate = props => {
+const WeatherDate = _ => {
 
     const date = () => {
         const now = new Date()

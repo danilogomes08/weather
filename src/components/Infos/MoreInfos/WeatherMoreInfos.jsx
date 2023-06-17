@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeatherMoreInfos.css';
+import './WeatherMoreInfos.scss';
 
 const WeatherMoreInfos = props => {
     return (

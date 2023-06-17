@@ -1,6 +1,6 @@
 import React from 'react';
 import WeatherForms from '../Forms/WeatherForms';
-import './WheatherHead.css'
+import './WheatherHead.scss'
 
 const WheatherHeader = props => {
     return (
