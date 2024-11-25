@@ -27,7 +27,6 @@ function App() {
       setCityName('')
   }
 
-
   const keyHandler = (e) => {
     if (e.key === 'Enter') {
       searchCity()

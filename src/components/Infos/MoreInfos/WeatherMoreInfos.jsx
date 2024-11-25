@@ -9,17 +9,17 @@ const WeatherMoreInfos = props => {
                 <div className="MoreInfo">
                     <div>
                         <p>{props.min}º</p>
-                        <p>MIN</p>
+                        <p>MÍNIMA</p>
                     </div>
 
                     <div>
                         <p>{props.max}º</p>
-                        <p>MAX</p>
+                        <p>MÁXIMA</p>
                     </div>
 
                     <div>
                         <p>{props.feels}º</p>
-                        <p>FEELS</p>
+                        <p>SENSAÇÃO</p>
                     </div>
                 </div>
 
